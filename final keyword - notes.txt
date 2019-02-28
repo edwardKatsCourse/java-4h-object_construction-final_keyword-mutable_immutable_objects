@@ -1,0 +1,21 @@
+final keyword
+ 
+1. final class A {}
+Unable to extends form such class
+ 
+2. class A {
+      final String name;
+   }
+ 
+Field MUST be initialized with value AND only once
+Compiler checks that we INDEED initialize such field
+Reference on such field cannot be changed EVER
+ 
+3. public final void method() {
+   }
+ 
+Unable to override such method
+ 
+4. Method parameters
+ 
+public void method(final Person name)
